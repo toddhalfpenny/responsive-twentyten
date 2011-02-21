@@ -36,6 +36,15 @@ div.menu,
   -webkit-box-shadow: 2px 2px 10px #333;
 }
 
+iframe, object, embed{
+  max-width: 100%;
+}
+
+.wp-caption {
+	max-width: 100% !important; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+
 @media screen and (max-width: 1024px) {
   #wrapper {
     margin: 20px auto;
@@ -128,8 +137,16 @@ div.menu,
   }
   
   #content {
-    width: 99%;
+    width: 93%;
     margin: 0 0px 0 0px;
+  }
+
+  .alignleft, img.alignleft, .alignright, img.alignright {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    float: none;
   }
   
   #primary,
