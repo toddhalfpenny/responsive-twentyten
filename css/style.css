@@ -9,7 +9,7 @@ Tags: black, blue, white, two-columns, fluid, responsive, custom-header, custom-
 */
 
 @import url("../twentyten/style.css");
-
+  
 #wrapper,
 #access,
 #access .menu-header,
@@ -66,7 +66,10 @@ iframe, object, embed{
     overflow:hidden;
   }
   
-  
+  /* added extra lines from the next release of twentyten */
+#content img {
+  max-width: 100%;
+  }
   
   /*
   LAYOUT: Two columns
