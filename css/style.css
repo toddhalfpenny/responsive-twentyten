@@ -144,7 +144,7 @@ iframe, object, embed{
     margin: 0 0px 0 0px;
   }
 
-  .alignleft, img.alignleft, .alignright, img.alignright {
+  .alignleft, img.alignleft, #content img.alignleft, .alignright, img.alignright, #content img.alignright, {
 	clear: both;
 	display: block;
 	margin-left: auto;
