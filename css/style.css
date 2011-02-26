@@ -45,6 +45,10 @@ iframe, object, embed{
 	height: auto; /* Override height to match resized width for correct aspect ratio. */
 }
 
+.wp-caption img {
+  height: auto;
+}
+
 @media screen and (max-width: 1024px) {
   #wrapper {
     margin: 20px auto;
