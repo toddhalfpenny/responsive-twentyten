@@ -22,7 +22,7 @@ Plugin Name: Responsive TwentyTen
 Plugin URI: http://gingerbreaddesign.co.uk/wordpress/responsive-twentyten/
 Description: Makes your TwentyTen themed site have a responsive and fluid layout. Making it ideal for for viewing across a whole range of devices and screen sizes (i.e iPhones, Android, iPads)
 Author: Todd Halfpenny
-Version: 0.0.1
+Version: 0.0.3
 Author URI: http://gingerbreaddesign.co.uk/todd
 */
 
