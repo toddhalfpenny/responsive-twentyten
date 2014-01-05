@@ -30,12 +30,15 @@ div.menu,
   }
 
 .entry-content img.size-full {
-  border: 1px solid #333;
-  padding: 5px;
+  border: none;
+  padding: none;
   -moz-box-shadow: 2px 2px 10px #333;
   -webkit-box-shadow: 2px 2px 10px #333;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 iframe, object, embed{
   max-width: 100%;
 }
