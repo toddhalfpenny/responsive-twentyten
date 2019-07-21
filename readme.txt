@@ -3,8 +3,8 @@ Contributors: toddhalfpenny
 Donate link: http://gingerbreaddesign.co.uk/wordpress/plugins/plugins.php
 Tags: css, twentyten, responsive
 Requires at least: 2.8
-Tested up to: 3.1
-Stable tag: 0.0.3
+Tested up to: 5.2.2
+Stable tag: 0.0.4
 
 Makes your TwentyTen themed site have a responsive and fluid layout
 
@@ -40,6 +40,14 @@ The WordPress.org theme repository doesn't support the submission of child theme
 
 
 == Changelog ==
+
+= 0.0.4 = 
+
+Tweaks from https://www.mikematera.com/make-your-wordpress-twenty-ten-theme-responsive/ :
+
+ * Adjust header image to screen size
+
+ * Don't add shadows and borders to images
 
 = 0.0.3 = 
 
